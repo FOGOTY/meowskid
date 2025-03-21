@@ -673,7 +673,7 @@ if game.CoreGui:FindFirstChild("woof") then
           callback = typeof(callback) == "function" and callback or function()end
           keybind_options = typeof(keybind_options) == "table" and keybind_options or {}
           keybind_options = {
-             ["standard"] = keybind_options.standard or Enum.KeyCode.RightControl,
+             ["standard"] = keybind_options.standard or Enum.KeyCode.LeftAlt,
           }
    
    
@@ -681,7 +681,7 @@ if game.CoreGui:FindFirstChild("woof") then
           callback = typeof(callback) == "function" and callback or function()end
           keybind_options = typeof(keybind_options) == "table" and keybind_options or {}
           keybind_options = {
-             ["standard"] = keybind_options.standard or Enum.KeyCode.RightControl,
+             ["standard"] = keybind_options.standard or Enum.KeyCode.LeftAlt,
           }
    
           local shortkeys = {
